@@ -11,5 +11,7 @@ if aa[0] != 0:
 else:
     for i in range(len(aa)):
         if aa[i] != i:
+            print(i)
             break
-    print(i+1)
+    else:
+        print(K)
